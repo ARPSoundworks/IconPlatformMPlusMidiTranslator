@@ -4,7 +4,7 @@ This tool allows the Icon Platform M+ control surface to function both as a stan
 
 Key Features
 MIDI Port Detection
-Automatically identifies the Icon M+ MIDI ports and two IAC virtual ports: IconMidiCC (for MIDI CC output) and IconMixer2DAW (for DAW input).
+Automatically identifies the Icon M+ MIDI ports and two IAC virtual ports: IconMidiCC (for MIDI CC output) and IconMixer2DAW (for control surface output).
 
 Fader Data Filtering
 Captures MIDI data from the Icon and filters only fader movements, sent as 14-bit pitch bend messages in MCU/Logic mode.
