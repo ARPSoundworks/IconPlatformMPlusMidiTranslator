@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		93BCF51B2E0CC07800A0577F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BCF5012E0CC07700A0577F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BCF5082E0CC07700A0577F;
+			remoteInfo = "Icon Midi Translator";
+		};
+		93BCF5252E0CC07800A0577F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BCF5012E0CC07700A0577F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BCF5082E0CC07700A0577F;
+			remoteInfo = "Icon Midi Translator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93BCF5092E0CC07700A0577F /* Icon Midi Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Icon Midi Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BCF51A2E0CC07800A0577F /* Icon Midi TranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Icon Midi TranslatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BCF5242E0CC07800A0577F /* Icon Midi TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Icon Midi TranslatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		93BCF50B2E0CC07700A0577F /* Icon Midi Translator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Icon Midi Translator";
+			sourceTree = "<group>";
+		};
+		93BCF51D2E0CC07800A0577F /* Icon Midi TranslatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Icon Midi TranslatorTests";
+			sourceTree = "<group>";
+		};
+		93BCF5272E0CC07800A0577F /* Icon Midi TranslatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Icon Midi TranslatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BCF5062E0CC07700A0577F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCF5172E0CC07800A0577F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCF5212E0CC07800A0577F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93BCF5002E0CC07700A0577F = {
+			isa = PBXGroup;
+			children = (
+				93BCF50B2E0CC07700A0577F /* Icon Midi Translator */,
+				93BCF51D2E0CC07800A0577F /* Icon Midi TranslatorTests */,
+				93BCF5272E0CC07800A0577F /* Icon Midi TranslatorUITests */,
+				93BCF50A2E0CC07700A0577F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BCF50A2E0CC07700A0577F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BCF5092E0CC07700A0577F /* Icon Midi Translator.app */,
+				93BCF51A2E0CC07800A0577F /* Icon Midi TranslatorTests.xctest */,
+				93BCF5242E0CC07800A0577F /* Icon Midi TranslatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BCF5082E0CC07700A0577F /* Icon Midi Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BCF52E2E0CC07800A0577F /* Build configuration list for PBXNativeTarget "Icon Midi Translator" */;
+			buildPhases = (
+				93BCF5052E0CC07700A0577F /* Sources */,
+				93BCF5062E0CC07700A0577F /* Frameworks */,
+				93BCF5072E0CC07700A0577F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93BCF50B2E0CC07700A0577F /* Icon Midi Translator */,
+			);
+			name = "Icon Midi Translator";
+			packageProductDependencies = (
+			);
+			productName = "Icon Midi Translator";
+			productReference = 93BCF5092E0CC07700A0577F /* Icon Midi Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93BCF5192E0CC07800A0577F /* Icon Midi TranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BCF5312E0CC07800A0577F /* Build configuration list for PBXNativeTarget "Icon Midi TranslatorTests" */;
+			buildPhases = (
+				93BCF5162E0CC07800A0577F /* Sources */,
+				93BCF5172E0CC07800A0577F /* Frameworks */,
+				93BCF5182E0CC07800A0577F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BCF51C2E0CC07800A0577F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93BCF51D2E0CC07800A0577F /* Icon Midi TranslatorTests */,
+			);
+			name = "Icon Midi TranslatorTests";
+			packageProductDependencies = (
+			);
+			productName = "Icon Midi TranslatorTests";
+			productReference = 93BCF51A2E0CC07800A0577F /* Icon Midi TranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93BCF5232E0CC07800A0577F /* Icon Midi TranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BCF5342E0CC07800A0577F /* Build configuration list for PBXNativeTarget "Icon Midi TranslatorUITests" */;
+			buildPhases = (
+				93BCF5202E0CC07800A0577F /* Sources */,
+				93BCF5212E0CC07800A0577F /* Frameworks */,
+				93BCF5222E0CC07800A0577F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BCF5262E0CC07800A0577F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				93BCF5272E0CC07800A0577F /* Icon Midi TranslatorUITests */,
+			);
+			name = "Icon Midi TranslatorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Icon Midi TranslatorUITests";
+			productReference = 93BCF5242E0CC07800A0577F /* Icon Midi TranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BCF5012E0CC07700A0577F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					93BCF5082E0CC07700A0577F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					93BCF5192E0CC07800A0577F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 93BCF5082E0CC07700A0577F;
+					};
+					93BCF5232E0CC07800A0577F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 93BCF5082E0CC07700A0577F;
+					};
+				};
+			};
+			buildConfigurationList = 93BCF5042E0CC07700A0577F /* Build configuration list for PBXProject "Icon Midi Translator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BCF5002E0CC07700A0577F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 93BCF50A2E0CC07700A0577F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BCF5082E0CC07700A0577F /* Icon Midi Translator */,
+				93BCF5192E0CC07800A0577F /* Icon Midi TranslatorTests */,
+				93BCF5232E0CC07800A0577F /* Icon Midi TranslatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BCF5072E0CC07700A0577F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCF5182E0CC07800A0577F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCF5222E0CC07800A0577F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BCF5052E0CC07700A0577F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCF5162E0CC07800A0577F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BCF5202E0CC07800A0577F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BCF51C2E0CC07800A0577F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BCF5082E0CC07700A0577F /* Icon Midi Translator */;
+			targetProxy = 93BCF51B2E0CC07800A0577F /* PBXContainerItemProxy */;
+		};
+		93BCF5262E0CC07800A0577F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BCF5082E0CC07700A0577F /* Icon Midi Translator */;
+			targetProxy = 93BCF5252E0CC07800A0577F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93BCF52C2E0CC07800A0577F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93BCF52D2E0CC07800A0577F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93BCF52F2E0CC07800A0577F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Icon Midi Translator/Icon_Midi_Translator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Icon Midi Translator/Preview Content\"";
+				DEVELOPMENT_TEAM = YZ5HYE47W9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARP.Icon-Midi-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93BCF5302E0CC07800A0577F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Icon Midi Translator/Icon_Midi_Translator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Icon Midi Translator/Preview Content\"";
+				DEVELOPMENT_TEAM = YZ5HYE47W9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARP.Icon-Midi-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		93BCF5322E0CC07800A0577F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZ5HYE47W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARP.Icon-Midi-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Icon Midi Translator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Icon Midi Translator";
+			};
+			name = Debug;
+		};
+		93BCF5332E0CC07800A0577F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZ5HYE47W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARP.Icon-Midi-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Icon Midi Translator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Icon Midi Translator";
+			};
+			name = Release;
+		};
+		93BCF5352E0CC07800A0577F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZ5HYE47W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARP.Icon-Midi-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Icon Midi Translator";
+			};
+			name = Debug;
+		};
+		93BCF5362E0CC07800A0577F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZ5HYE47W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARP.Icon-Midi-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Icon Midi Translator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BCF5042E0CC07700A0577F /* Build configuration list for PBXProject "Icon Midi Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCF52C2E0CC07800A0577F /* Debug */,
+				93BCF52D2E0CC07800A0577F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BCF52E2E0CC07800A0577F /* Build configuration list for PBXNativeTarget "Icon Midi Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCF52F2E0CC07800A0577F /* Debug */,
+				93BCF5302E0CC07800A0577F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BCF5312E0CC07800A0577F /* Build configuration list for PBXNativeTarget "Icon Midi TranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCF5322E0CC07800A0577F /* Debug */,
+				93BCF5332E0CC07800A0577F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BCF5342E0CC07800A0577F /* Build configuration list for PBXNativeTarget "Icon Midi TranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BCF5352E0CC07800A0577F /* Debug */,
+				93BCF5362E0CC07800A0577F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BCF5012E0CC07700A0577F /* Project object */;
+}
